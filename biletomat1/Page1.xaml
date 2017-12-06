@@ -1,0 +1,34 @@
+﻿<Page x:Class="biletomat1.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:biletomat1"
+      mc:Ignorable="d" 
+        Title="Page1" Height="588" Width="1046">
+    <Grid Margin="-9,0,0,0" OpacityMask="#FF3F4658" Background="#FF404558">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="222*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="47*"/>
+            <RowDefinition Height="27*"/>
+            <RowDefinition Height="46*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="47*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="91*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="32*"/>
+            <ColumnDefinition Width="317*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="label" Content="PROSZĘ WYBRAĆ TYP BILETU" HorizontalAlignment="Left" Height="67" Margin="176,87,0,0" VerticalAlignment="Top" Width="539" Foreground="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" FontSize="36" Grid.Column="1"/>
+        <Button x:Name="jednorazowe" Content="BILETY JEDNOPRZEJAZDOWE I CZASOWE" HorizontalAlignment="Left" Height="46" Margin="54,175,0,0" VerticalAlignment="Top" Width="716" FontSize="22" BorderBrush="#FF49A2CB" Background="#FF0594D6" Foreground="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" Grid.Column="1" Click="jednorazowe_Click"/>
+        <Button x:Name="miesieczne" Content="BILETY MIESIĘCZNE" HorizontalAlignment="Left" Height="46" Margin="54,1,0,0" VerticalAlignment="Top" Width="716" FontSize="22" BorderBrush="#FF49A2CB" Background="#FF0594D6" Foreground="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" Grid.Column="1" Grid.Row="2" Click="miesieczne_Click"/>
+        <Button x:Name="_30_dniowe" Content="BILETY 30-DNIOWE" HorizontalAlignment="Left" Height="46" Margin="54,0,0,0" VerticalAlignment="Top" Width="716" FontSize="22" BorderBrush="#FF49A2CB" Background="#FF0594D6" Foreground="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" Grid.Column="1" Grid.Row="4" Click="_30_dniowe_Click"/>
+        <Button x:Name="semestralne" Content="BILETY SEMESTRALNE" HorizontalAlignment="Left" Height="46" Margin="54,0,0,0" VerticalAlignment="Top" Width="716" FontSize="22" BorderBrush="#FF49A2CB" Background="#FF0594D6" Foreground="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" Grid.Column="1" Grid.Row="6" Click="semestralne_Click"/>
+        <Button x:Name="metropolitarne" Content="BILETY METROPOLITALNE" HorizontalAlignment="Left" Height="46" Margin="54,0,0,0" VerticalAlignment="Top" Width="716" FontSize="22" BorderBrush="#FF49A2CB" Background="#FF0594D6" Foreground="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" Grid.Column="1" Grid.Row="8" Click="metropolitarne_Click"/>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="31" Margin="848,10,0,0" VerticalAlignment="Top" Width="100" Source="infolinia.png"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="100" Source="zkm_logo3.png" Grid.ColumnSpan="2"/>
+    </Grid>
+</Page>

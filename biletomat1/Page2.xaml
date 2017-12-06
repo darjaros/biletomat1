@@ -1,0 +1,69 @@
+﻿<Page x:Class="biletomat1.Page2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:biletomat1"
+      mc:Ignorable="d" 
+      d:DesignHeight="588" d:DesignWidth="1046"
+      Title="Page2" Background="#FF3F4457">
+
+    <Grid RenderTransformOrigin="0.5,0.5" Margin="0,0,1,1">
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform Angle="0.07"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="40" Margin="15,139,0,0" TextWrapping="Wrap" Text="WAŻNY NA LINII ZWYKŁEJ" VerticalAlignment="Top" Width="275"/>
+        <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Height="40" Margin="15,179,0,0" TextWrapping="Wrap" Text="WAŻNY NA LINII NOCNEJ, POSPIESZNEJ, SPECJALNEJ I ZWYKŁEJ" VerticalAlignment="Top" Width="275"/>
+        <TextBox x:Name="textBox_Copy1" HorizontalAlignment="Left" Height="36" Margin="15,219,0,0" TextWrapping="Wrap" Text="WAŻNY JEDNĄ GODZINĘ NA LINIACH ZWYKŁYCH" VerticalAlignment="Top" Width="275"/>
+        <TextBox x:Name="textBox_Copy2" HorizontalAlignment="Left" Height="40" Margin="15,255,0,0" TextWrapping="Wrap" Text="WAŻNY JEDNĄ GODZINĘ NA LINIACH NOCNYCH, POSPIESZNYCH, SPECJALNYCH I ZWYKŁYCH" VerticalAlignment="Top" Width="275"/>
+        <TextBox x:Name="textBox_Copy3" HorizontalAlignment="Left" Height="40" Margin="15,295,0,0" TextWrapping="Wrap" Text="WAŻNY 24H NA LINIACH NOCNYCH, POSPIESZNYCH, SPECJALNYCH I ZWYKŁYCH" VerticalAlignment="Top" Width="275"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="30" Margin="290,109,0,0" TextWrapping="Wrap" Text="NORMALNY" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="30" Margin="410,109,0,0" TextWrapping="Wrap" Text="ULGOWY" VerticalAlignment="Top" Width="120"/>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Height="351" Margin="665,90,0,0" VerticalAlignment="Top" Width="380"/>
+        <Button x:Name="button32_plus" Content="+" HorizontalAlignment="Left" Margin="370,139,0,0" VerticalAlignment="Top" Width="40" Height="40" Background="#FF0590D1" Click="button32_plus_Click"/>
+        <Button x:Name="button32_minus" Content="-" HorizontalAlignment="Left" Margin="290,139,0,0" VerticalAlignment="Top" Width="40" Height="40" Background="#FF0590D1" Click="button32_minus_Click"/>
+        <TextBlock x:Name="ilosc32" HorizontalAlignment="Left" Margin="330,139,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="40" Height="40" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" TextAlignment="Center" LineHeight="36" FontSize="20"/>
+        <Button x:Name="button42_plus" Content="+" HorizontalAlignment="Left" Margin="370,179,0,0" VerticalAlignment="Top" Width="40" Height="40" Background="#FF0590D1" Click="button42_plus_Click"/>
+        <Button x:Name="button42_minus" Content="-" HorizontalAlignment="Left" Margin="290,179,0,0" VerticalAlignment="Top" Width="40" Height="40" Background="#FF0590D1" Click="button42_minus_Click"/>
+        <TextBlock x:Name="ilosc42" HorizontalAlignment="Left" Margin="330,179,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="40" Height="40" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" TextAlignment="Center" LineHeight="36" FontSize="20"/>
+        <Button x:Name="button38_plus" Content="+" HorizontalAlignment="Left" Margin="370,219,0,0" VerticalAlignment="Top" Width="40" Height="36" Background="#FF0590D1" Click="button38_plus_Click"/>
+        <Button x:Name="button38_minus" Content="-" HorizontalAlignment="Left" Margin="290,219,0,0" VerticalAlignment="Top" Width="40" Height="36" Background="#FF0590D1" Click="button38_minus_Click"/>
+        <TextBlock x:Name="ilosc38" HorizontalAlignment="Left" Margin="330,219,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="40" Height="36" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" TextAlignment="Center" LineHeight="36" FontSize="20"/>
+        <Button x:Name="button48_plus" Content="+" HorizontalAlignment="Left" Margin="370,255,0,0" VerticalAlignment="Top" Width="40" Height="40" Background="#FF0590D1" Click="button48_plus_Click"/>
+        <Button x:Name="button48_minus" Content="-" HorizontalAlignment="Left" Margin="290,255,0,0" VerticalAlignment="Top" Width="40" Height="40" Background="#FF0590D1" Click="button48_minus_Click"/>
+        <TextBlock x:Name="ilosc48" HorizontalAlignment="Left" Margin="330,255,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="40" Height="40" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" TextAlignment="Center" LineHeight="36" FontSize="20"/>
+        <Button x:Name="button13_plus" Content="+" HorizontalAlignment="Left" Margin="370,295,0,0" VerticalAlignment="Top" Width="40" Height="40" Background="#FF0590D1" Click="button13_plus_Click"/>
+        <Button x:Name="button13_minus" Content="-" HorizontalAlignment="Left" Margin="290,295,0,0" VerticalAlignment="Top" Width="40" Height="40" Background="#FF0590D1" Click="button13_minus_Click"/>
+        <TextBlock x:Name="ilosc13" HorizontalAlignment="Left" Margin="330,295,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="40" Height="40" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" TextAlignment="Center" LineHeight="36" FontSize="20"/>
+        <Button x:Name="button16_plus" Content="+" HorizontalAlignment="Left" Margin="490,139,0,0" VerticalAlignment="Top" Width="40" Height="40" Background="#FF0590D1" Click="button16_plus_Click"/>
+        <Button x:Name="button16_minus" Content="-" HorizontalAlignment="Left" Margin="410,139,0,0" VerticalAlignment="Top" Width="40" Height="40" Background="#FF0590D1" Click="button16_minus_Click"/>
+        <TextBlock x:Name="ilosc16" HorizontalAlignment="Left" Margin="450,139,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="40" Height="40" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" TextAlignment="Center" LineHeight="36" FontSize="20"/>
+        <Button x:Name="button21_plus" Content="+" HorizontalAlignment="Left" Margin="490,179,0,0" VerticalAlignment="Top" Width="40" Height="40" Background="#FF0590D1" Click="button21_plus_Click"/>
+        <Button x:Name="button21_minus" Content="-" HorizontalAlignment="Left" Margin="410,179,0,0" VerticalAlignment="Top" Width="40" Height="40" Background="#FF0590D1" Click="button21_minus_Click"/>
+        <TextBlock x:Name="ilosc21" HorizontalAlignment="Left" Margin="450,179,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="40" Height="40" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" TextAlignment="Center" LineHeight="36" FontSize="20"/>
+        <Button x:Name="button19_plus" Content="+" HorizontalAlignment="Left" Margin="490,219,0,0" VerticalAlignment="Top" Width="40" Height="36" Background="#FF0590D1" Click="button19_plus_Click"/>
+        <Button x:Name="button19_minus" Content="-" HorizontalAlignment="Left" Margin="410,219,0,0" VerticalAlignment="Top" Width="40" Height="36" Background="#FF0590D1" Click="button19_minus_Click"/>
+
+        <TextBlock x:Name="ilosc19" HorizontalAlignment="Left" Margin="450,219,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="40" Height="36" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" TextAlignment="Center" LineHeight="36" FontSize="20"/>
+        <Button x:Name="button24_plus" Content="+" HorizontalAlignment="Left" Margin="490,255,0,0" VerticalAlignment="Top" Width="40" Height="40" Background="#FF0590D1" Click="button24_plus_Click"/>
+        <Button x:Name="button24_minus" Content="-" HorizontalAlignment="Left" Margin="410,255,0,0" VerticalAlignment="Top" Width="40" Height="40" Background="#FF0590D1" Click="button24_minus_Click"/>
+        <TextBlock x:Name="ilosc24" HorizontalAlignment="Left" Margin="450,255,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="40" Height="40" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" TextAlignment="Center" LineHeight="36" FontSize="20"/>
+        <Button x:Name="button65_plus" Content="+" HorizontalAlignment="Left" Margin="490,295,0,0" VerticalAlignment="Top" Width="40" Height="40" Background="#FF0590D1" Click="button65_plus_Click"/>
+        <Button x:Name="button65_minus" Content="-" HorizontalAlignment="Left" Margin="410,295,0,0" VerticalAlignment="Top" Width="40" Height="40" Background="#FF0590D1" Click="button65_minus_Click"/>
+        <TextBlock x:Name="ilosc65" HorizontalAlignment="Left" Margin="450,295,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="40" Height="40" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" TextAlignment="Center" LineHeight="36" FontSize="20"/>
+        <Button x:Name="button" Content="POWRÓT" HorizontalAlignment="Left" Height="50" Margin="15,480,0,0" VerticalAlignment="Top" Width="125" Click="button_Click" Background="#FF0590D1" FontSize="20" Foreground="White"/>
+        <Label Content="WYBRANE BILETY:" HorizontalAlignment="Left" Margin="579,56,0,0" VerticalAlignment="Top" Height="29" Width="309" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
+        <Label Content="DO ZAPŁATY:" HorizontalAlignment="Left" Margin="665,441,0,0" VerticalAlignment="Top" Foreground="White" Height="33" Width="147" FontSize="18"/>
+        <Label x:Name="do_zaplaty" Margin="861,446,109,103" VerticalAlignment="Center" Foreground="White" Height="38" FontSize="18" VerticalContentAlignment="Center" HorizontalContentAlignment="Right"/>
+        <Button x:Name="button_Copy" Content="ZAPŁAĆ&#xD;&#xA;KARTĄ" HorizontalAlignment="Left" Height="50" Margin="665,474,0,0" VerticalAlignment="Top" Width="191" Click="button_Copy_Click" Background="#FF0590D1" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" Foreground="White"/>
+        <Button x:Name="button_Copy1" Content="ZAPŁAĆ&#xD;&#xA;GOTÓWKĄ" HorizontalAlignment="Left" Height="50" Margin="861,474,0,0" VerticalAlignment="Top" Width="184" Click="button_Copy1_Click" Background="#FF0590D1" FontSize="16" FontWeight="Bold" Foreground="White"/>
+        <Image HorizontalAlignment="Left" Height="31" Margin="935,10,0,0" VerticalAlignment="Top" Width="100" Source="infolinia.png"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="100" Source="zkm_logo3.png"/>
+
+    </Grid>
+</Page>

@@ -1,0 +1,43 @@
+﻿<Page x:Class="biletomat1.Semestralne"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:biletomat1"
+      mc:Ignorable="d" 
+      d:DesignHeight="588" d:DesignWidth="1046"
+      Title="Semestralne" Background="#FF3F4457">
+
+    <Grid>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="40" Margin="15,139,0,0" TextWrapping="Wrap" Text="LINIE ZWYKŁE W GRANICACH GDYNI" VerticalAlignment="Top" Width="275"/>
+        <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Height="40" Margin="15,179,0,0" TextWrapping="Wrap" Text="LINIE NOCNE, POSPIESZNE I ZWYKŁE&#xA;W GRANICACH GDYNI" VerticalAlignment="Top" Width="275"/>
+        <TextBox x:Name="textBox_Copy1" HorizontalAlignment="Left" Height="36" Margin="15,219,0,0" TextWrapping="Wrap" Text="LINIE NOCNE, POSPIESZNE I ZWYKŁE&#xA;W GRANICACH" VerticalAlignment="Top" Width="275"/>
+        <TextBox x:Name="textBox_Copy2" HorizontalAlignment="Left" Height="40" Margin="15,255,0,0" TextWrapping="Wrap" Text="LINIE NOCNE, POSPIESZNE I ZWYKŁE&#xA;W GRANICACH" VerticalAlignment="Top" Width="275"/>
+        <TextBox x:Name="textBox_Copy3" HorizontalAlignment="Left" Height="40" Margin="15,295,0,0" TextWrapping="Wrap" Text="LINIE NOCNE, POSPIESZNE I ZWYKŁE&#xA;W OBRĘBIE SIECI KOMUNIKACYJNEJ" VerticalAlignment="Top" Width="275"/>
+        <Button x:Name="button_4_2" Content="179,00+" HorizontalAlignment="Left" Height="40" Margin="290,179,0,0" VerticalAlignment="Top" Width="150" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_4_2_Click"/>
+        <Button x:Name="button_3_2" Content="156,00+" HorizontalAlignment="Left" Height="40" Margin="290,139,0,0" VerticalAlignment="Top" Width="150" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_3_2_Click"/>
+        <Button x:Name="button_3_8" Content="122,00+" HorizontalAlignment="Left" Height="36" Margin="290,219,0,0" VerticalAlignment="Top" Width="150" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_3_8_Click"/>
+        <Button x:Name="button_4_8" Content="160,00+" HorizontalAlignment="Left" Height="40" Margin="290,255,0,0" VerticalAlignment="Top" Width="150" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_4_8_Click"/>
+        <Button x:Name="button_13" Content="198,00+" HorizontalAlignment="Left" Height="40" Margin="290,295,0,0" VerticalAlignment="Top" Width="150" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_13_Click"/>
+        <Button x:Name="button_Copy" Content="POWRÓT" HorizontalAlignment="Left" Height="50" Margin="15,480,0,0" VerticalAlignment="Top" Width="125" Click="button_Click" Background="#FF0590D1" FontSize="20" Foreground="White"/>
+        <Label Content="WYBRANE BILETY:" HorizontalAlignment="Left" Margin="835,56,0,0" VerticalAlignment="Top" Height="29" Width="210" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
+        <Label Content="DO ZAPŁATY:" HorizontalAlignment="Left" Margin="835,446,0,0" VerticalAlignment="Top" Foreground="White" Height="33" Width="147" FontSize="18"/>
+        <Label HorizontalAlignment="Left" Margin="939,446,0,109" VerticalAlignment="Center" Foreground="White" Height="33" Width="75" FontSize="18" VerticalContentAlignment="Center" HorizontalContentAlignment="Right">
+            <Label x:Name="do_zaplaty" VerticalAlignment="Center" Foreground="White" Height="30" FontSize="18" VerticalContentAlignment="Center" HorizontalContentAlignment="Right" Content="00.00" Width="65" RenderTransformOrigin="0.136,0.565"/>
+        </Label>
+        <Button x:Name="button_Copy1" Content="ZAPŁAĆ&#xA;KARTĄ" HorizontalAlignment="Left" Height="50" Margin="825,479,0,0" VerticalAlignment="Top" Width="109" Background="#FF0590D1" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" Foreground="White" Click="button_Copy1_Click"/>
+        <Button x:Name="button_Copy2" Content="ZAPŁAĆ&#xA;GOTÓWKĄ" HorizontalAlignment="Left" Height="50" Margin="934,479,0,0" VerticalAlignment="Top" Width="109" Background="#FF0590D1" FontSize="16" FontWeight="Bold" Foreground="White" Click="button_Copy2_Click"/>
+        <Button x:Name="button_4_2_Copy" Content="223,00+" HorizontalAlignment="Left" Height="40" Margin="440,179,0,0" VerticalAlignment="Top" Width="150" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_4_2_Copy_Click"/>
+        <Button x:Name="button_3_2_Copy" Content="195,00+" HorizontalAlignment="Left" Height="40" Margin="440,139,0,0" VerticalAlignment="Top" Width="150" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_3_2_Copy_Click"/>
+        <Button x:Name="button_3_8_Copy" Content="152,00+" HorizontalAlignment="Left" Height="36" Margin="440,219,0,0" VerticalAlignment="Top" Width="150" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_3_8_Copy_Click"/>
+        <Button x:Name="button_4_8_Copy" Content="200,00+" HorizontalAlignment="Left" Height="40" Margin="440,255,0,0" VerticalAlignment="Top" Width="150" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_4_8_Copy_Click"/>
+        <Button x:Name="button_13_Copy" Content="247,00+" HorizontalAlignment="Left" Height="40" Margin="440,295,0,0" VerticalAlignment="Top" Width="150" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_13_Copy_Click"/>
+        <TextBox x:Name="textBox1_Copy1" HorizontalAlignment="Left" Height="60" Margin="290,79,0,0" TextWrapping="Wrap" Text="4-MIESIĘCZNY WAŻNY WE&#xA;WSZYSTKIE DNI TYGODNIA&#xA;1.10-31.01 LUB 01.02-31.05" VerticalAlignment="Top" Width="150" TextAlignment="Center" FontSize="11"/>
+        <TextBox x:Name="textBox1_Copy2" HorizontalAlignment="Left" Height="60" Margin="440,79,0,0" TextWrapping="Wrap" Text="5-MIESIĘCZNY WAŻNY WE&#xA;WSZYSTKIE DNI TYGODNIA&#xA;1.09-31.01 LUB 01.02-30.06" VerticalAlignment="Top" Width="150" TextAlignment="Center" FontSize="11"/>
+        <ComboBox HorizontalAlignment="Left" Margin="104,236,0,0" VerticalAlignment="Top" Width="111" Height="19"/>
+        <ComboBox HorizontalAlignment="Left" Margin="104,271,0,0" VerticalAlignment="Top" Width="111" Height="19"/>
+        <Image Margin="859,10,11,546" Source="infolinia.png" Stretch="Fill"/>
+        <Image Margin="15,10,946,525" Source="zkm_logo3.png" Stretch="Fill"/>
+        <ListBox x:Name="lista" HorizontalAlignment="Left" Height="351" Margin="835,90,0,0" VerticalAlignment="Top" Width="210"/>
+    </Grid>
+</Page>

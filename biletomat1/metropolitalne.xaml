@@ -1,0 +1,76 @@
+﻿<Page x:Class="biletomat1.Metropolitalne"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:biletomat1"
+      mc:Ignorable="d" 
+      d:DesignHeight="588" d:DesignWidth="1046"
+      Title="Page2" Background="#FF3F4457">
+
+    <Grid RenderTransformOrigin="0.5,0.5" Margin="0,0,1,1">
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform Angle="0.07"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="40" Margin="15,139,0,0" TextWrapping="Wrap" Text="24-GODZINNY KOMUNALNY" VerticalAlignment="Top" Width="275"/>
+        <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Height="40" Margin="15,179,0,0" TextWrapping="Wrap" Text="24-GODZINNY KOLEJOWO KOMUNALNY DWÓCH&#xD;&#xA;ORGANIZATORÓW SKM PR + " VerticalAlignment="Top" Width="275"/>
+        <TextBox x:Name="textBox_Copy1" HorizontalAlignment="Left" Height="36" Margin="15,219,0,0" TextWrapping="Wrap" Text="24-GODZINNY KOLEJOWO KOMUNALNY&#xD;&#xA;WSZYSTKICH ORGANIZATORÓW" VerticalAlignment="Top" Width="275"/>
+        <TextBox x:Name="textBox_Copy2" HorizontalAlignment="Left" Height="40" Margin="15,255,0,0" TextWrapping="Wrap" Text="24-GODZINNY KOMUNALNY" VerticalAlignment="Top" Width="275"/>
+        <TextBox x:Name="textBox_Copy3" HorizontalAlignment="Left" Height="40" Margin="15,295,0,0" TextWrapping="Wrap" Text="72-GODZINNY KOLEJOWO KOMUNALNY&#xD;&#xA;WSZYSTKICH ORGANIZATORÓW" VerticalAlignment="Top" Width="275"/>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Height="351" Margin="739,90,0,0" VerticalAlignment="Top" Width="306">
+
+
+        </DataGrid>
+        <Button x:Name="button" Content="POWRÓT" HorizontalAlignment="Left" Height="50" Margin="15,480,0,0" VerticalAlignment="Top" Width="125" Background="#FF0590D1" FontSize="20" Foreground="White" Click="button_Click_1"/>
+        <Label Content="WYBRANE BILETY:" HorizontalAlignment="Left" Margin="835,56,0,0" VerticalAlignment="Top" Height="29" Width="210" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
+        <Label Content="DO ZAPŁATY:" HorizontalAlignment="Left" Margin="835,446,0,0" VerticalAlignment="Top" Foreground="White" Height="33" Width="147" FontSize="18"/>
+        <Label x:Name="do_zaplaty" HorizontalAlignment="Left" Margin="960,441,0,113" VerticalAlignment="Center" Foreground="White" Height="33" Width="75" FontSize="18" VerticalContentAlignment="Center" HorizontalContentAlignment="Right"/>
+        <Button x:Name="button_Copy" Content="ZAPŁAĆ&#xD;&#xA;KARTĄ" HorizontalAlignment="Left" Height="50" Margin="739,484,0,0" VerticalAlignment="Top" Width="152" Background="#FF0590D1" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" Foreground="White" Click="button_Copy_Click_1"/>
+        <Button x:Name="button_Copy1" Content="ZAPŁAĆ&#xD;&#xA;GOTÓWKĄ" HorizontalAlignment="Left" Height="50" Margin="891,484,0,0" VerticalAlignment="Top" Width="154" Background="#FF0590D1" FontSize="16" FontWeight="Bold" Foreground="White" Click="button_Copy1_Click_1"/>
+        <TextBox x:Name="textBox1_Copy1" HorizontalAlignment="Left" Height="29" Margin="290,110,0,0" TextWrapping="Wrap" Text="NORMALNY" VerticalAlignment="Top" Width="150" TextAlignment="Center" FontSize="11"/>
+        <TextBox x:Name="textBox1_Copy2" HorizontalAlignment="Left" Height="29" Margin="440,110,0,0" TextWrapping="Wrap" Text="ULGOWY" VerticalAlignment="Top" Width="150" TextAlignment="Center" FontSize="11"/>
+        <ComboBox HorizontalAlignment="Left" Margin="179,195,0,0" VerticalAlignment="Top" Width="106" Height="19"/>
+        <Image Margin="859,10,10,545" Source="infolinia.png" Stretch="Fill"/>
+        <Image Margin="15,10,945,524" Source="zkm_logo3.png" Stretch="Fill"/>
+        <TextBox x:Name="textBox_Copy4" HorizontalAlignment="Left" Height="40" Margin="15,335,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="275"/>
+
+        <Button x:Name="button_13_Copy1" Content="132,00+" HorizontalAlignment="Left" Height="40" Margin="290,335,0,0" VerticalAlignment="Top" Width="150" Background="#FF0590D1" Foreground="White" FontSize="20"/>
+        <Button x:Name="button_13_Copy2" Content="66,00+" HorizontalAlignment="Left" Height="40" Margin="440,335,0,0" VerticalAlignment="Top" Width="150" Background="#FF0590D1" Foreground="White" FontSize="20"/>
+        <ComboBox HorizontalAlignment="Left" Margin="34,340,0,0" VerticalAlignment="Top" Width="106" Height="19"/>
+        <Button x:Name="button150_plus" Content="+" HorizontalAlignment="Left" Margin="390,139,0,0" VerticalAlignment="Top" Width="50" Height="40" Background="#FF0590D1" Click="button150_plus_Click"/>
+        <Button x:Name="button150_minus" Content="-" HorizontalAlignment="Left" Margin="290,139,0,0" VerticalAlignment="Top" Width="50" Height="40" Background="#FF0590D1" Click="button150_minus_Click"/>
+        <TextBlock x:Name="ilosc150" HorizontalAlignment="Left" Margin="340,139,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="50" Height="40" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" TextAlignment="Center" LineHeight="36" FontSize="20"/>
+        <Button x:Name="button200_plus" Content="+" HorizontalAlignment="Left" Margin="390,179,0,0" VerticalAlignment="Top" Width="50" Height="40" Background="#FF0590D1" Click="button200_plus_Click"/>
+        <Button x:Name="button200_minus" Content="-" HorizontalAlignment="Left" Margin="290,179,0,0" VerticalAlignment="Top" Width="50" Height="40" Background="#FF0590D1" Click="button200_minus_Click"/>
+        <TextBlock x:Name="ilosc200" HorizontalAlignment="Left" Margin="340,179,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="50" Height="40" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" TextAlignment="Center" LineHeight="36" FontSize="20"/>
+        <Button x:Name="button230_plus" Content="+" HorizontalAlignment="Left" Margin="390,219,0,0" VerticalAlignment="Top" Width="50" Height="36" Background="#FF0590D1" Click="button230_plus_Click"/>
+        <Button x:Name="button230_minus" Content="-" HorizontalAlignment="Left" Margin="290,219,0,0" VerticalAlignment="Top" Width="50" Height="36" Background="#FF0590D1" Click="button230_minus_Click"/>
+        <TextBlock x:Name="ilosc230" HorizontalAlignment="Left" Margin="340,219,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="50" Height="36" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" TextAlignment="Center" LineHeight="36" FontSize="20"/>
+        <Button x:Name="button300_plus" Content="+" HorizontalAlignment="Left" Margin="390,255,0,0" VerticalAlignment="Top" Width="50" Height="40" Background="#FF0590D1" Click="button300_plus_Click"/>
+        <Button x:Name="button300_minus" Content="-" HorizontalAlignment="Left" Margin="290,255,0,0" VerticalAlignment="Top" Width="50" Height="40" Background="#FF0590D1" Click="button300_minus_Click"/>
+        <TextBlock x:Name="ilosc300" HorizontalAlignment="Left" Margin="340,255,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="50" Height="40" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" TextAlignment="Center" LineHeight="36" FontSize="20"/>
+        <Button x:Name="button480_plus" Content="+" HorizontalAlignment="Left" Margin="390,295,0,0" VerticalAlignment="Top" Width="50" Height="40" Background="#FF0590D1" Click="button480_plus_Click"/>
+        <Button x:Name="button480_minus" Content="-" HorizontalAlignment="Left" Margin="290,295,0,0" VerticalAlignment="Top" Width="50" Height="40" Background="#FF0590D1" Click="button480_minus_Click"/>
+        <TextBlock x:Name="ilosc480" HorizontalAlignment="Left" Margin="340,295,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="50" Height="40" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" TextAlignment="Center" LineHeight="36" FontSize="20"/>
+        <Button x:Name="button750_plus" Content="+" HorizontalAlignment="Left" Margin="540,139,0,0" VerticalAlignment="Top" Width="50" Height="40" Background="#FF0590D1" Click="button750_plus_Click"/>
+        <Button x:Name="button750_minus" Content="-" HorizontalAlignment="Left" Margin="440,139,0,0" VerticalAlignment="Top" Width="50" Height="40" Background="#FF0590D1" Click="button750_minus_Click"/>
+        <TextBlock x:Name="ilosc750" HorizontalAlignment="Left" Margin="490,139,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="50" Height="40" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" TextAlignment="Center" LineHeight="36" FontSize="20"/>
+        <Button x:Name="button100_plus" Content="+" HorizontalAlignment="Left" Margin="540,179,0,0" VerticalAlignment="Top" Width="50" Height="40" Background="#FF0590D1" Click="button100_plus_Click"/>
+        <Button x:Name="button100_minus" Content="-" HorizontalAlignment="Left" Margin="440,179,0,0" VerticalAlignment="Top" Width="50" Height="40" Background="#FF0590D1" Click="button100_minus_Click"/>
+        <TextBlock x:Name="ilosc100" HorizontalAlignment="Left" Margin="490,179,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="50" Height="40" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" TextAlignment="Center" LineHeight="36" FontSize="20"/>
+        <Button x:Name="button115_plus" Content="+" HorizontalAlignment="Left" Margin="540,219,0,0" VerticalAlignment="Top" Width="50" Height="36" Background="#FF0590D1" Click="button115_plus_Click"/>
+        <Button x:Name="button115_minus" Content="-" HorizontalAlignment="Left" Margin="440,219,0,0" VerticalAlignment="Top" Width="50" Height="36" Background="#FF0590D1" Click="button115_minus_Click"/>
+        <TextBlock x:Name="ilosc115" HorizontalAlignment="Left" Margin="490,219,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="50" Height="36" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" TextAlignment="Center" LineHeight="36" FontSize="20"/>
+        <Button x:Name="button150_ulg_plus" Content="+" HorizontalAlignment="Left" Margin="540,255,0,0" VerticalAlignment="Top" Width="50" Height="40" Background="#FF0590D1" Click="button150_ulg_plus_Click"/>
+        <Button x:Name="button150_ulg_minus" Content="-" HorizontalAlignment="Left" Margin="440,255,0,0" VerticalAlignment="Top" Width="50" Height="40" Background="#FF0590D1" Click="button150_ulg_minus_Click"/>
+        <TextBlock x:Name="ilosc150_ulg" HorizontalAlignment="Left" Margin="490,255,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="50" Height="40" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" TextAlignment="Center" LineHeight="36" FontSize="20"/>
+        <Button x:Name="button230_ulg_plus" Content="+" HorizontalAlignment="Left" Margin="540,295,0,0" VerticalAlignment="Top" Width="50" Height="40" Background="#FF0590D1" Click="button230_ulg_plus_Click"/>
+        <Button x:Name="button230_ulg_minus" Content="-" HorizontalAlignment="Left" Margin="440,295,0,0" VerticalAlignment="Top" Width="50" Height="40" Background="#FF0590D1" Click="button230_ulg_minus_Click"/>
+        <TextBlock x:Name="ilosc230_ulg" HorizontalAlignment="Left" Margin="490,295,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="50" Height="40" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" TextAlignment="Center" LineHeight="36" FontSize="20"/>
+    </Grid>
+</Page>
