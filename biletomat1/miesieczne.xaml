@@ -24,16 +24,16 @@
         <TextBox x:Name="textBox_Copy3" HorizontalAlignment="Left" Height="40" Margin="15,295,0,0" TextWrapping="Wrap" Text="LINIE NOCNE, POSPIESZNE I ZWYKŁE&#xD;&#xA;W OBRĘBIE SIECI KOMUNIKACYJNEJ" VerticalAlignment="Top" Width="275"/>
         <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="30" Margin="290,109,0,0" TextWrapping="Wrap" Text="NORMALNY" VerticalAlignment="Top" Width="75" TextAlignment="Center"/>
         <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="30" Margin="365,109,0,0" TextWrapping="Wrap" Text="ULGOWY" VerticalAlignment="Top" Width="75" TextAlignment="Center"/>
-        <Button x:Name="button_1_6" Content="36,00+" HorizontalAlignment="Left" Height="40" Margin="365,139,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_1_6_Click"/>
-        <Button x:Name="button_4_2" Content="86,00+" HorizontalAlignment="Left" Height="40" Margin="290,179,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_4_2_Click"/>
-        <Button x:Name="button_3_2" Content="72,00+" HorizontalAlignment="Left" Height="40" Margin="290,139,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_3_2_Click"/>
-        <Button x:Name="button_2_1" Content="43,00+" HorizontalAlignment="Left" Height="40" Margin="365,179,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_2_1_Click"/>
-        <Button x:Name="button_3_8" Content="58,00+" HorizontalAlignment="Left" Height="36" Margin="290,219,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_3_8_Click"/>
-        <Button x:Name="button_1_9" Content="29,00+" HorizontalAlignment="Left" Height="36" Margin="365,219,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_1_9_Click"/>
-        <Button x:Name="button_4_8" Content="74,00+" HorizontalAlignment="Left" Height="40" Margin="290,255,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_4_8_Click"/>
-        <Button x:Name="button_2_4" Content="37,00+" HorizontalAlignment="Left" Height="40" Margin="365,255,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_2_4_Click"/>
-        <Button x:Name="button_13" Content="96,00+" HorizontalAlignment="Left" Height="40" Margin="290,295,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_13_Click"/>
-        <Button x:Name="button_6_5" Content="48,00+" HorizontalAlignment="Left" Height="40" Margin="365,295,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_6_5_Click"/>
+        <Button x:Name="button_1_2" Content="36,00+" HorizontalAlignment="Left" Height="40" Margin="365,139,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_1_2_Click"/>
+        <Button x:Name="button_2_1" Content="86,00+" HorizontalAlignment="Left" Height="40" Margin="290,179,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_2_1_Click"/>
+        <Button x:Name="button_1_1" Content="72,00+" HorizontalAlignment="Left" Height="40" Margin="290,139,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_1_1_Click"/>
+        <Button x:Name="button_2_2" Content="43,00+" HorizontalAlignment="Left" Height="40" Margin="365,179,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_2_2_Click"/>
+        <Button x:Name="button_3_1" Content="58,00+" HorizontalAlignment="Left" Height="36" Margin="290,219,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_3_1_Click"/>
+        <Button x:Name="button_3_2" Content="29,00+" HorizontalAlignment="Left" Height="36" Margin="365,219,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_3_2_Click"/>
+        <Button x:Name="button_4_1" Content="74,00+" HorizontalAlignment="Left" Height="40" Margin="290,255,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_4_1_Click"/>
+        <Button x:Name="button_4_2" Content="37,00+" HorizontalAlignment="Left" Height="40" Margin="365,255,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_4_2_Click"/>
+        <Button x:Name="button_5_1" Content="96,00+" HorizontalAlignment="Left" Height="40" Margin="290,295,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_5_1_Click"/>
+        <Button x:Name="button_5_2" Content="48,00+" HorizontalAlignment="Left" Height="40" Margin="365,295,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_5_2_Click"/>
         <Button x:Name="button" Content="POWRÓT" HorizontalAlignment="Left" Height="50" Margin="15,480,0,0" VerticalAlignment="Top" Width="125" Background="#FF0590D1" FontSize="20" Foreground="White" Click="button_Click_1"/>
         <Label Content="WYBRANE BILETY:" HorizontalAlignment="Left" Margin="835,56,0,0" VerticalAlignment="Top" Height="29" Width="210" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
         <Label Content="DO ZAPŁATY:" HorizontalAlignment="Left" Margin="835,446,0,0" VerticalAlignment="Top" Foreground="White" Height="33" Width="147" FontSize="18"/>
@@ -44,22 +44,22 @@
         <Button x:Name="button_Copy1" Content="ZAPŁAĆ&#xD;&#xA;GOTÓWKĄ" HorizontalAlignment="Left" Height="50" Margin="934,479,0,0" VerticalAlignment="Top" Width="109" Background="#FF0590D1" FontSize="16" FontWeight="Bold" Foreground="White" Click="button_Copy1_Click"/>
         <TextBox x:Name="textBox1_Copy" HorizontalAlignment="Left" Height="30" Margin="440,109,0,0" TextWrapping="Wrap" Text="NORMALNY" VerticalAlignment="Top" Width="75" TextAlignment="Center"/>
         <TextBox x:Name="textBox2_Copy" HorizontalAlignment="Left" Height="30" Margin="515,109,0,0" TextWrapping="Wrap" Text="ULGOWY" VerticalAlignment="Top" Width="75" TextAlignment="Center"/>
-        <Button x:Name="button_1_6_Copy" Content="41,00+" HorizontalAlignment="Left" Height="40" Margin="515,139,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_1_6_Copy_Click"/>
-        <Button x:Name="button_4_2_Copy" Content="94,00+" HorizontalAlignment="Left" Height="40" Margin="440,179,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_4_2_Copy_Click"/>
-        <Button x:Name="button_3_2_Copy" Content="82,00+" HorizontalAlignment="Left" Height="40" Margin="440,139,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_3_2_Copy_Click"/>
-        <Button x:Name="button_2_1_Copy" Content="47,00+" HorizontalAlignment="Left" Height="40" Margin="515,179,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_2_1_Copy_Click"/>
-        <Button x:Name="button_3_8_Copy" Content="64,00+" HorizontalAlignment="Left" Height="36" Margin="440,219,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_3_8_Copy_Click"/>
-        <Button x:Name="button_1_9_Copy" Content="32,00+" HorizontalAlignment="Left" Height="36" Margin="515,219,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_1_9_Copy_Click"/>
-        <Button x:Name="button_4_8_Copy" Content="84,00+" HorizontalAlignment="Left" Height="40" Margin="440,255,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_4_8_Copy_Click"/>
-        <Button x:Name="button_2_4_Copy" Content="42,00+" HorizontalAlignment="Left" Height="40" Margin="515,255,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_2_4_Copy_Click"/>
-        <Button x:Name="button_13_Copy" Content="104,00+" HorizontalAlignment="Left" Height="40" Margin="440,295,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_13_Copy_Click"/>
-        <Button x:Name="button_6_5_Copy" Content="52,00+" HorizontalAlignment="Left" Height="40" Margin="515,295,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_6_5_Copy_Click"/>
+        <Button x:Name="button_1_4" Content="41,00+" HorizontalAlignment="Left" Height="40" Margin="515,139,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_1_4_Click"/>
+        <Button x:Name="button_2_3" Content="94,00+" HorizontalAlignment="Left" Height="40" Margin="440,179,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_2_3_Click"/>
+        <Button x:Name="button_1_3" Content="82,00+" HorizontalAlignment="Left" Height="40" Margin="440,139,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_1_3_Click"/>
+        <Button x:Name="button_2_4" Content="47,00+" HorizontalAlignment="Left" Height="40" Margin="515,179,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_2_4_Click"/>
+        <Button x:Name="button_3_3" Content="64,00+" HorizontalAlignment="Left" Height="36" Margin="440,219,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_3_3_Click"/>
+        <Button x:Name="button_3_4" Content="32,00+" HorizontalAlignment="Left" Height="36" Margin="515,219,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_3_4_Click"/>
+        <Button x:Name="button_4_3" Content="84,00+" HorizontalAlignment="Left" Height="40" Margin="440,255,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_4_3_Click"/>
+        <Button x:Name="button_4_4" Content="42,00+" HorizontalAlignment="Left" Height="40" Margin="515,255,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_4_4_Click"/>
+        <Button x:Name="button_5_3" Content="104,00+" HorizontalAlignment="Left" Height="40" Margin="440,295,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_5_3_Click"/>
+        <Button x:Name="button_5_4" Content="52,00+" HorizontalAlignment="Left" Height="40" Margin="515,295,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_5_4_Click"/>
         <TextBox x:Name="textBox2_Copy1" HorizontalAlignment="Left" Height="30" Margin="590,109,0,0" TextWrapping="Wrap" Text="NA&#xD;&#xA;OKAZICIELA" VerticalAlignment="Top" Width="75" TextAlignment="Center" FontSize="11"/>
-        <Button x:Name="button_1_6_Copy1" Content="92,00+" HorizontalAlignment="Left" Height="40" Margin="590,139,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_1_6_Copy1_Click"/>
-        <Button x:Name="button_2_1_Copy1" Content="107,00+" HorizontalAlignment="Left" Height="40" Margin="590,179,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_2_1_Copy1_Click"/>
-        <Button x:Name="button_1_9_Copy1" Content="75,00+" HorizontalAlignment="Left" Height="36" Margin="590,219,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_1_9_Copy1_Click"/>
-        <Button x:Name="button_6_5_Copy1" Content="117,00+" HorizontalAlignment="Left" Height="40" Margin="590,295,0,0" VerticalAlignment="Top" Width="75" Background="#FF96DDFF" Foreground="White" FontSize="20" Click="button_6_5_Copy1_Click"/>
-        <Button x:Name="button_2_4_Copy1" Content="97,00+" HorizontalAlignment="Left" Height="40" Margin="590,255,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_2_4_Copy1_Click"/>
+        <Button x:Name="button_1_5" Content="92,00+" HorizontalAlignment="Left" Height="40" Margin="590,139,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_1_5_Click"/>
+        <Button x:Name="button_2_5" Content="107,00+" HorizontalAlignment="Left" Height="40" Margin="590,179,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_2_5_Click"/>
+        <Button x:Name="button_3_5" Content="75,00+" HorizontalAlignment="Left" Height="36" Margin="590,219,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_3_5_Click"/>
+        <Button x:Name="button_5_5" Content="117,00+" HorizontalAlignment="Left" Height="40" Margin="590,295,0,0" VerticalAlignment="Top" Width="75" Background="#FF96DDFF" Foreground="White" FontSize="20" Click="button_5_5_Click"/>
+        <Button x:Name="button_4_5" Content="97,00+" HorizontalAlignment="Left" Height="40" Margin="590,255,0,0" VerticalAlignment="Top" Width="75" Background="#FF0590D1" Foreground="White" FontSize="20" Click="button_4_5_Click"/>
         <TextBox x:Name="textBox1_Copy1" HorizontalAlignment="Left" Height="30" Margin="290,79,0,0" TextWrapping="Wrap" Text="IMIENNY WAŻNY&#xD;&#xA;PONIEDZIAŁEK - PIĄTEK" VerticalAlignment="Top" Width="150" TextAlignment="Center" FontSize="11"/>
         <TextBox x:Name="textBox1_Copy2" HorizontalAlignment="Left" Height="30" Margin="440,79,0,0" TextWrapping="Wrap" Text="IMIENNY WAŻNY&#xA;WE WSZYSTKIE DNI" VerticalAlignment="Top" Width="150" TextAlignment="Center" FontSize="11"/>
         <ComboBox HorizontalAlignment="Left" Margin="104,236,0,0" VerticalAlignment="Top" Width="111" Height="19" SelectionChanged="ComboBox_SelectionChanged"/>
@@ -68,7 +68,7 @@
         <Image Margin="15,10,945,524" Source="zkm_logo3.png" Stretch="Fill"/>
         <ListBox HorizontalAlignment="Left" Height="351" Margin="825,90,0,0" VerticalAlignment="Top" Width="220">
             <ListBoxItem Content="STYCZEŃ"/>
-            <ListBoxItem Content="LUTY" Selected="ListBoxItem_Selected"/>
+            <ListBoxItem Content="LUTY" />
             <ListBoxItem Content="MARZEC"/>
             <ListBoxItem Content="KWIECIEŃ"/>
             <ListBoxItem Content="MAJ"/>
@@ -77,8 +77,8 @@
             <ListBoxItem Content="SIERPIEŃ"/>
             <ListBoxItem Content="WRZESIEŃ"/>
             <ListBoxItem Content="PAŹDZIERNIK"/>
-            <ListBoxItem Content="LISTOPAD" Selected="ListBoxItem_Selected"/>
-            <ListBoxItem Content="GRUDZIEŃ" Selected="ListBoxItem_Selected_1"/>
+            <ListBoxItem Content="LISTOPAD" />
+            <ListBoxItem Content="GRUDZIEŃ" />
         </ListBox>
     </Grid>
 </Page>

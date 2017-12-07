@@ -37,6 +37,7 @@ namespace biletomat1
             this.NavigationService.Navigate(p11);
         }
         private double suma_biletow;
+        private int miejsce = 0;
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
@@ -57,157 +58,7 @@ namespace biletomat1
         {
         }
 
-        private void button_3_2_Click(object sender, RoutedEventArgs e)
-        {
-            suma_biletow = 72.00;
-            do_zaplaty.Content = suma_biletow;
-
-
-        }
-
-        private void button_1_6_Click(object sender, RoutedEventArgs e)
-        {
-            suma_biletow = 36.00;
-            do_zaplaty.Content = suma_biletow;
-        }
-
-        private void button_3_2_Copy_Click(object sender, RoutedEventArgs e)
-        {
-            suma_biletow = 82.00;
-            do_zaplaty.Content = suma_biletow;
-        }
-
-        private void button_1_6_Copy_Click(object sender, RoutedEventArgs e)
-        {
-            suma_biletow = 41.00;
-            do_zaplaty.Content = suma_biletow;
-        }
-
-        private void button_1_6_Copy1_Click(object sender, RoutedEventArgs e)
-        {
-            suma_biletow = 92.00;
-            do_zaplaty.Content = suma_biletow;
-        }
-
-        private void button_4_2_Click(object sender, RoutedEventArgs e)
-        {
-            suma_biletow = 86.00;
-            do_zaplaty.Content = suma_biletow;
-        }
-
-        private void button_2_1_Click(object sender, RoutedEventArgs e)
-        {
-            suma_biletow = 43.00;
-            do_zaplaty.Content = suma_biletow;
-        }
-
-        private void button_4_2_Copy_Click(object sender, RoutedEventArgs e)
-        {
-            suma_biletow = 94.00;
-            do_zaplaty.Content = suma_biletow;
-        }
-
-        private void button_2_1_Copy_Click(object sender, RoutedEventArgs e)
-        {
-            suma_biletow = 47.00;
-            do_zaplaty.Content = suma_biletow;
-        }
-
-        private void button_2_1_Copy1_Click(object sender, RoutedEventArgs e)
-        {
-            suma_biletow = 107.00;
-            do_zaplaty.Content = suma_biletow;
-        }
-
-        private void button_3_8_Click(object sender, RoutedEventArgs e)
-        {
-            suma_biletow = 58.00;
-            do_zaplaty.Content = suma_biletow;
-        }
-
-        private void button_1_9_Click(object sender, RoutedEventArgs e)
-        {
-            suma_biletow = 29.00;
-            do_zaplaty.Content = suma_biletow;
-        }
-
-        private void button_3_8_Copy_Click(object sender, RoutedEventArgs e)
-        {
-            suma_biletow = 64.00;
-            do_zaplaty.Content = suma_biletow;
-        }
-
-        private void button_1_9_Copy_Click(object sender, RoutedEventArgs e)
-        {
-            suma_biletow = 32.00;
-            do_zaplaty.Content = suma_biletow;
-        }
-
-        private void button_1_9_Copy1_Click(object sender, RoutedEventArgs e)
-        {
-            suma_biletow = 75.00;
-            do_zaplaty.Content = suma_biletow;
-        }
-
-        private void button_4_8_Click(object sender, RoutedEventArgs e)
-        {
-            suma_biletow = 74.00;
-            do_zaplaty.Content = suma_biletow;
-        }
-
-        private void button_2_4_Click(object sender, RoutedEventArgs e)
-        {
-            suma_biletow = 37.00;
-            do_zaplaty.Content = suma_biletow;
-        }
-
-        private void button_4_8_Copy_Click(object sender, RoutedEventArgs e)
-        {
-            suma_biletow = 84.00;
-            do_zaplaty.Content = suma_biletow;
-        }
-
-        private void button_2_4_Copy_Click(object sender, RoutedEventArgs e)
-        {
-            suma_biletow = 42.00;
-            do_zaplaty.Content = suma_biletow;
-        }
-
-        private void button_2_4_Copy1_Click(object sender, RoutedEventArgs e)
-        {
-            suma_biletow = 97.00;
-            do_zaplaty.Content = suma_biletow;
-        }
-
-        private void button_13_Click(object sender, RoutedEventArgs e)
-        {
-            suma_biletow = 96.00;
-            do_zaplaty.Content = suma_biletow;
-        }
-
-        private void button_6_5_Click(object sender, RoutedEventArgs e)
-        {
-            suma_biletow = 48.00;
-            do_zaplaty.Content = suma_biletow;
-        }
-
-        private void button_13_Copy_Click(object sender, RoutedEventArgs e)
-        {
-            suma_biletow = 104.00;
-            do_zaplaty.Content = suma_biletow;
-        }
-
-        private void button_6_5_Copy_Click(object sender, RoutedEventArgs e)
-        {
-            suma_biletow = 52.00;
-            do_zaplaty.Content = suma_biletow;
-        }
-
-        private void button_6_5_Copy1_Click(object sender, RoutedEventArgs e)
-        {
-            suma_biletow = 117.00;
-            do_zaplaty.Content = suma_biletow;
-        }
+        
 
         private void button_Click_1(object sender, RoutedEventArgs e)
         {
@@ -225,6 +76,14 @@ namespace biletomat1
         {
             Pg pg = new Pg(suma_biletow);
             this.NavigationService.Navigate(pg);
+        }
+
+        private void button_1_1_Click(object sender, RoutedEventArgs e)
+        {
+            suma_biletow = 72.00;
+            do_zaplaty.Content = suma_biletow.ToString("N2");
+            miejsce = 11;
+
         }
     }
 }

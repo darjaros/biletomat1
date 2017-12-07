@@ -32,8 +32,14 @@ namespace biletomat1
             date();
         }
         private void date()
-        {
+        {   
             DateTime start = calendar.SelectedDate.Value;
+            if ((DateTime.Compare(start, DateTime.Now)) < 0)
+            {
+                start = DateTime.Now;
+                // Dorzuć popup
+            }
+
             DateTime end = start.AddDays(30);
             data.Content = String.Concat("Bilet ważny od ",start.ToShortDateString()," do ",end.ToShortDateString());
         }

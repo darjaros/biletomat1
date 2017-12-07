@@ -63,7 +63,7 @@ namespace biletomat1
             lista.Items.Add("od 1 października do 31 stycznia");
             lista.Items.Add("od 1 lutego do 31 maja");
             suma_biletow = 156.00;
-            do_zaplaty.Content = suma_biletow;
+            do_zaplaty.Content = suma_biletow.ToString("N2");
          }
 
         private void button_4_2_Click(object sender, RoutedEventArgs e)
@@ -72,7 +72,7 @@ namespace biletomat1
             lista.Items.Add( "od 1 października do 31 stycznia"  );
             lista.Items.Add("od 1 lutego do 31 maja");
             suma_biletow = 179.00;
-            do_zaplaty.Content = suma_biletow;
+            do_zaplaty.Content = suma_biletow.ToString("N2"); ;
         }
 
         private void button_3_8_Click(object sender, RoutedEventArgs e)
@@ -81,7 +81,7 @@ namespace biletomat1
             lista.Items.Add("od 1 października do 31 stycznia");
             lista.Items.Add("od 1 lutego do 31 maja");
             suma_biletow = 122.00;
-            do_zaplaty.Content = suma_biletow;
+            do_zaplaty.Content = suma_biletow.ToString("N2"); ;
         }
 
         private void button_4_8_Click(object sender, RoutedEventArgs e)
@@ -90,7 +90,7 @@ namespace biletomat1
             lista.Items.Add("od 1 października do 31 stycznia");
             lista.Items.Add("od 1 lutego do 31 maja");
             suma_biletow = 160.00;
-            do_zaplaty.Content = suma_biletow;
+            do_zaplaty.Content = suma_biletow.ToString("N2"); ;
         }
 
         private void button_13_Click(object sender, RoutedEventArgs e)
@@ -99,7 +99,7 @@ namespace biletomat1
             lista.Items.Add("od 1 października do 31 stycznia");
             lista.Items.Add("od 1 lutego do 31 maja");
             suma_biletow = 198.00;
-            do_zaplaty.Content = suma_biletow;
+            do_zaplaty.Content = suma_biletow.ToString("N2"); ;
         }
 
         private void button_3_2_Copy_Click(object sender, RoutedEventArgs e)
@@ -108,7 +108,7 @@ namespace biletomat1
             lista.Items.Add("od 1 września do 31 stycznia");
             lista.Items.Add("od 1 lutego do 30 czerwca");
             suma_biletow = 195.00;
-            do_zaplaty.Content = suma_biletow;
+            do_zaplaty.Content = suma_biletow.ToString("N2"); ;
         }
 
         private void button_4_2_Copy_Click(object sender, RoutedEventArgs e)
@@ -126,7 +126,7 @@ namespace biletomat1
             lista.Items.Add("od 1 września do 31 stycznia");
             lista.Items.Add("od 1 lutego do 30 czerwca");
             suma_biletow = 152.00;
-            do_zaplaty.Content = suma_biletow;
+            do_zaplaty.Content = suma_biletow.ToString("N2"); ;
         }
 
         private void button_4_8_Copy_Click(object sender, RoutedEventArgs e)
@@ -135,7 +135,7 @@ namespace biletomat1
             lista.Items.Add("od 1 września do 31 stycznia");
             lista.Items.Add("od 1 lutego do 30 czerwca");
             suma_biletow = 200.00;
-            do_zaplaty.Content = suma_biletow;
+            do_zaplaty.Content = suma_biletow.ToString("N2"); ;
         }
 
         private void button_13_Copy_Click(object sender, RoutedEventArgs e)
@@ -144,7 +144,7 @@ namespace biletomat1
             lista.Items.Add("od 1 września do 31 stycznia");
             lista.Items.Add("od 1 lutego do 30 czerwca");
             suma_biletow = 247.00;
-            do_zaplaty.Content = suma_biletow;
+            do_zaplaty.Content = suma_biletow.ToString("N2"); ;
         }
     }
 }

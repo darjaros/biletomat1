@@ -98,7 +98,7 @@ namespace biletomat1
                 suma_biletow = suma_biletow + oticket.cena;
             }
             
-            do_zaplaty.Content = Convert.ToString(suma_biletow);
+            do_zaplaty.Content = suma_biletow.ToString("N2");
         }
 
         private void button_Click(object sender, RoutedEventArgs e)
