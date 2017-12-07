@@ -21,6 +21,7 @@ namespace biletomat1
     public partial class trzyDniowy : Page
     {   
         System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer();
+        private int huj = 21;
         public trzyDniowy()
         {
             InitializeComponent();
