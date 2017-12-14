@@ -42,12 +42,7 @@ namespace biletomat1
             this.NavigationService.Navigate(p11);
         }
 
-        private void TimerEventProcessor2(Object myObject,
-                                            EventArgs myEventArgs)
-        {
-            Koniec koniec = new Koniec(3);
-            this.NavigationService.Navigate(koniec);
-        }
+
 
 
         private double zaplata ;
@@ -55,10 +50,8 @@ namespace biletomat1
         {
             if (zaplata <= 0)
             {
-                System.Windows.Forms.Timer timer2 = new System.Windows.Forms.Timer();
-                timer2.Tick += new EventHandler(TimerEventProcessor2);
-                timer2.Interval = 2000;
-                timer2.Start();
+                Koniec koniec = new Koniec(3);
+                this.NavigationService.Navigate(koniec);
 
             }
             do_zapl.Content = zaplata.ToString("N2");
@@ -117,7 +110,7 @@ namespace biletomat1
         private void Button_Click_8(object sender, RoutedEventArgs e)
         {
             zaplata -= 0.1;
-            if (zaplata <= 0)
+
             change();
         }
         

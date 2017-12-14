@@ -62,8 +62,17 @@
         <Label x:Name="do_zaplaty" Margin="861,446,109,103" VerticalAlignment="Center" Foreground="White" Height="38" FontSize="18" VerticalContentAlignment="Center" HorizontalContentAlignment="Right"/>
         <Button x:Name="button_Copy" Content="ZAPŁAĆ&#xD;&#xA;KARTĄ" HorizontalAlignment="Left" Height="50" Margin="665,474,0,0" VerticalAlignment="Top" Width="191" Click="button_Copy_Click" Background="#FF0590D1" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" Foreground="White"/>
         <Button x:Name="button_Copy1" Content="ZAPŁAĆ&#xD;&#xA;GOTÓWKĄ" HorizontalAlignment="Left" Height="50" Margin="861,474,0,0" VerticalAlignment="Top" Width="184" Click="button_Copy1_Click" Background="#FF0590D1" FontSize="16" FontWeight="Bold" Foreground="White"/>
-        <Image HorizontalAlignment="Left" Height="31" Margin="935,10,0,0" VerticalAlignment="Top" Width="100" Source="infolinia.png"/>
-        <Image HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="100" Source="zkm_logo3.png"/>
+        <Image  HorizontalAlignment="Left" Height="100" Margin="848,10,0,0" VerticalAlignment="Top" Width="100" Source="infolinia.png" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="1.5" ScaleX="1.5"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="100" Source="zkm_logo3.png" Grid.ColumnSpan="2"/>
 
     </Grid>
 </Page>
